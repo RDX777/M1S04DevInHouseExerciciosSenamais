@@ -1,0 +1,48 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    top: 0px;
+    position: fixed;
+    text-align: center;
+    background-color: aquamarine;
+    display: block;
+    width: 100%;
+}
+
+select, input {
+    width: 150px;
+}
+
+.div-submit {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    width: 150px;
+}
+
+.div-body {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    width: 680px;
+    justify-self: unset;
+}
+
+input[type=submit] {
+    background-color: aqua;
+    border: none;
+    border-radius: 1em;
+    height: 35px;
+    font-size: 18px;
+}
+
+.mensagem-sistema {
+    margin-top: 90px;
+    text-align: center;
+}
