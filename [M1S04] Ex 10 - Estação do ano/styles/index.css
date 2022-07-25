@@ -1,0 +1,31 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.div-topo {
+    top: 0px;
+    position: fixed;
+    text-align: center;
+    background-color: aquamarine;
+    display: block;
+    width: 100%;
+}
+
+.div-corpo{
+    border: 1px solid;
+    position: relative;
+    top: 115px;
+    width: 640px;
+    height: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+
+}
+
+.imagem {
+
+    width: 100%;
+    height: 100%;
+}
